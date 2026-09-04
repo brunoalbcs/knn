@@ -29,26 +29,33 @@ knn/
 |-- requirements.txt
 |-- main.py                     # Script principal com o pipeline de testes e geração de gráficos
 |-- knn_sem_normalizacao.py     # Classe do modelo KNN básico
-|-- knn_com_normalizacao.py     # Classe do modelo KNN com algoritmos de escala implementados
+|-- knn_com_normalizacao.py     # Classe do modelo KNN com algoritmos de escala nativos
 
 ## Como Executar o Projeto
 
 1. Clone o repositório:
-git clone https://github.com/brunoalbcs/knn-from-scratch.git
-cd knn
+
+    git clone https://github.com/brunoalbcs/knn.git
+    
+    cd knn
 
 2. Crie e ative um ambiente virtual (recomendado):
-python -m venv venv
-# No Windows:
-venv\Scripts\activate
-# No Linux/Mac:
-source venv/bin/activate
+
+    python -m venv venv
+    
+    ### No Windows:
+    venv\Scripts\activate
+    
+    ### No Linux/Mac:
+    source venv/bin/activate
 
 3. Instale as dependências:
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
 
 4. Execute o arquivo principal para rodar os treinamentos, validações e gerar as análises gráficas:
-python main.py
+
+    python main.py
 
 ---
 Projeto desenvolvido para aprofundamento teórico e prático na construção de modelos preditivos e manipulação de dados.
